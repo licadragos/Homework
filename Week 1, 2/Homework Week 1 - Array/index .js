@@ -1,0 +1,11 @@
+dispecerat = {name: 'dispecerat', preluareaTurei: [{name: 'Semnarea formularului de primire a turei.', 
+clienti: [{name: 'clientii suna', raspuns: [{name: 'preluare apel', 
+transmitereLocatie: [{name: 'Clientul mentioneaza locatia unde se afla si destinatia.', 
+identificiSoferiDisponibili: [{name: 'Soferul cel mai apropiat de locatie si disponibil preia comanda.', 
+soferulAjunge: [{ name: 'Soferul ajunge la locatia clientului.', 
+soferulTransporta: [{name: 'Soferul conduce clientul la destinatie.', 
+plata: [{name: 'Clientul plateste.', 
+altele: [{name:'Eventual in caz ca soferul nu ajunge la destinatie, clientul nu vine, nu raspunde, nu se gasesc unul pe celalalt, etc., incerc sa mediez situatia pentru solutionarea comenzii.', 
+registru: [{ name: 'In registru se trec data, ora, minut, numar de telefon, indicativ, rezultat solutionare comanda, eventual alte informatii dupa caz.', 
+repeta: [{ name: 'Se preiau urmatoarele comenzi.', 
+predareTura: [{ name: 'Se semneaza formularul de predare a turei si se paraseste disepeceratul dupa ce colegul semneaza formularul de primire a turei.'}]}]}]}]}]}]}]}]}]}]}]}]}

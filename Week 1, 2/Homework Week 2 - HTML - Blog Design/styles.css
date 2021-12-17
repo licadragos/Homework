@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px 0.04fr 0.04fr 0.04fr 0.3fr 1fr 30px;
+    grid-template-areas: 
+    "free free free free free free free free free free "
+    "box1 box1 box1 box1 box1 box1 box2 box3 box4 box5"
+    "second second second second second second second second second second"
+    "third third third third third third third third third third"
+    "fourth fourth fourth fourth fourth fourth fourth fourth fourth fourth"
+    "fifth fifth fifth fifth fifth fifth fifth fifth fifth fifth"
+    "free2 free2 free2 free2 free2 free2 free2 free2 free2 free2";
+    margin-right: 460px;
+    margin-left: 460px;
+    grid-row-gap: 22px;
+}
+
+
+#fifth {
+    margin-left: 35px;
+}
+
+#free{
+    grid-area: free;
+}
+#box1{
+    grid-area: box1;
+}
+#box2{
+    grid-area: box2;
+}
+#box3{
+    grid-area: box3;
+}
+#box4{
+    grid-area: box4;
+}
+#box5{
+    grid-area: box5;
+}
+#second{
+    grid-area: second;
+}
+#third{
+    grid-area: third;
+}
+#fourth{
+    grid-area: fourth;
+}
+#fifth{
+    grid-area: fifth;
+}
+#free2 {
+    grid-area: free2;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+}
+i {
+    font-size: 12px;
+    color: rgb(24, 24, 24);
+}
+
+#bb1 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#bb2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#bb3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8px;
+}
+#bb4 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8px;
+}
+
+hr{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 40%;
+    top: 80px;
+    color: black;
+    border: 1px solid black;
+}
